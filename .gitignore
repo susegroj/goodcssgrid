@@ -1,3 +1,4 @@
 # Local dependencies
 node_modules
+# GULP
 *.js
