@@ -1,0 +1,151 @@
+@import './reset'
+@import './colors'
+@import './normalize.css'
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body
+    font-family Raleway
+    transform all 1s ease
+.color
+    background royalblue
+    opacity .8
+    color white
+    height 50px
+    line-height 50px
+    text-align center
+
+.grow
+    flex-grow 1
+.tiny
+    flex-shrink 1
+.row
+    box-sizing border-box
+    display flex
+    flex-flow row wrap
+    flex 0 1 auto
+
+.col-1
+    flex-basis 8.333%
+.col-2
+    flex-basis 16.666%
+.col-3
+    flex-basis 25%
+.col-4
+    flex-basis 33.333%
+.col-5
+    flex-basis 41.666%
+.col-6
+    flex-basis 50%
+.col-7
+    flex-basis 58.333%
+.col-8
+    flex-basis 66.666%
+.col-9
+    flex-basis 75%
+.col-10
+    flex-basis 83.333%
+.col-11
+    flex-basis 91.666%
+.col-12
+    flex-basis 100%
+.hidden
+    display none
+.show
+    display block
+
+
+/*RESPONSIVE GRID*/
+/*Tablet resolution*/
+@media screen and (max-width:720px)
+    .m1
+        flex-basis 8.333%
+    .m2
+        flex-basis 16.666%
+    .m3
+        flex-basis 25%
+    .m4
+        flex-basis 33.333%
+    .m5
+        flex-basis 41.666%
+    .m6
+        flex-basis 50%
+    .m7
+        flex-basis 58.333%
+    .m8
+        flex-basis 66.666%
+    .m9
+        flex-basis 75%
+    .m10
+        flex-basis 83.333%
+    .m11
+        flex-basis 91.666%
+    .m12
+        flex-basis 100%
+    .m-hidden
+        display none
+    .m-show
+        display block
+
+
+
+/*Mobile resolution*/
+@media screen and (max-width:480px)
+    .s1
+        flex-basis 8.333%
+    .s2
+        flex-basis 16.666%
+    .s3
+        flex-basis 25%
+    .s4
+        flex-basis 33.333%
+    .s5
+        flex-basis 41.666%
+    .s6
+        flex-basis 50%
+    .s7
+        flex-basis 58.333%
+    .s8
+        flex-basis 66.666%
+    .s9
+        flex-basis 75%
+    .s10
+        flex-basis 83.333%
+    .s11
+        flex-basis 91.666%
+    .s12
+        flex-basis 100%
+    .s-hidden
+        display none
+    .s-show
+        display block
+
+/*Very small resolution*/
+@media screen and (max-width:320px)
+    .xs1
+        flex-basis 8.333%
+    .xs2
+        flex-basis 16.666%
+    .xs3
+        flex-basis 25%
+    .xs4
+        flex-basis 33.333%
+    .xs5
+        flex-basis 41.666%
+    .xs6
+        flex-basis 50%
+    .xs7
+        flex-basis 58.333%
+    .xs8
+        flex-basis 66.666%
+    .xs9
+        flex-basis 75%
+    .xs10
+        flex-basis 83.333%
+    .xs11
+        flex-basis 91.666%
+    .xs12
+        flex-basis 100%
+    .xs-hidden
+        display none
+    .xs-show
+        display block
