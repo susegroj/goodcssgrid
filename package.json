@@ -1,0 +1,22 @@
+{
+  "name": "GoodGrid",
+  "version": "0.0.0",
+  "description": "A so simple responsive css grid structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/susegroj/goodcssgrid.git"
+  },
+  "author": "Ing. Jorge de Jesús Macías Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susegroj/goodcssgrid/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
