@@ -13,6 +13,23 @@ body
     height 50px
     line-height 50px
     text-align center
+    
+reverse()
+    if $r
+        &.row
+            box-sizing border-box
+            display flex
+            flex-flow row-reverse wrap
+            flex 0 1 auto
+    if $c
+        &.column
+            box-sizing border-box
+            display flex
+            flex-flow column-reverse wrap
+            flex 0 1 auto
+.reverse
+    reverse()
+
 
 .grow
     flex-grow 1
